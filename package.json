@@ -1,0 +1,32 @@
+{
+  "name": "color-branded-browser-icon-components",
+  "version": "2.0.0",
+  "description": "Font Awesome Browser icons with brand colors applied",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dstevensio/color-branded-browser-icon-components.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dstevensio/color-branded-browser-icon-components/issues"
+  },
+  "homepage": "https://github.com/dstevensio/color-branded-browser-icon-components",
+  "scripts": {
+    "postinstall": "builder run npm:postinstall",
+    "preversion": "builder run npm:preversion",
+    "version": "builder run npm:version",
+    "test": "builder run npm:test"
+  },
+  "dependencies": {
+    "builder": "^2.5.0",
+    "builder-react-component": "^0.3.5",
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "builder-react-component-dev": "^0.3.5",
+    "react": "^0.14.0",
+    "react-addons-test-utils": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
